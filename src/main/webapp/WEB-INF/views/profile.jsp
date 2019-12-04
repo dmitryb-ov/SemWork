@@ -37,10 +37,10 @@
     <div class="col-sm-2">
         <img src="https://i.pinimg.com/originals/c0/b7/7f/c0b77faeb2cb3e67fd1b423c4535f6c3.jpg"
              class="rounded-circle button-section margin-ava" width="200" height="200   " alt="image-profile">
-        <form action="<%=request.getServletContext().getContextPath()+"/upload"%>" method="post"
-              enctype="multipart/form-data">
-            <button class="btn btn-info btn-block button-section" type="submit">Загрузить фото</button>
-        </form>
+<%--        <form action="<%=request.getServletContext().getContextPath()+"/upload"%>" method="post"--%>
+<%--              enctype="multipart/form-data">--%>
+<%--            <button class="btn btn-info btn-block button-section" type="submit">Загрузить фото</button>--%>
+<%--        </form>--%>
 
         <form action="<%=request.getServletContext().getContextPath()+"/editprofile"%>" method="get">
             <button class="btn btn-success btn-block button-section" data-toggle="modal" type="submit">Редактировать</button>

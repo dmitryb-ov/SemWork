@@ -118,7 +118,8 @@
 <body>
 <div class="row">
     <%@include file="includes/page_header_inc.jsp"%>
-    <div id='clock'></div> <br>
+    <div style="margin-left: 5%">Красивы часы Вам при заходе на мой сайт) </div><br>
+    <div id='clock'>Тут будет текущее время</div> <br>
     <canvas height='480' width='480' id='myCanvas'></canvas>
     <div class="col-sm-2">
 
